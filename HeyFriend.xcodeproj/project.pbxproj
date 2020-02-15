@@ -14,6 +14,8 @@
 		C87F7A5023F7DF1F00BB311B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87F7A4F23F7DF1F00BB311B /* Assets.xcassets */; };
 		C87F7A5323F7DF1F00BB311B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87F7A5223F7DF1F00BB311B /* Preview Assets.xcassets */; };
 		C87F7A5623F7DF1F00BB311B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87F7A5423F7DF1F00BB311B /* LaunchScreen.storyboard */; };
+		C87F7A5E23F7EB5A00BB311B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F7A5D23F7EB5A00BB311B /* CircleImage.swift */; };
+		C87F7A6023F7F69000BB311B /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F7A5F23F7F69000BB311B /* InfoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C87F7A5223F7DF1F00BB311B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C87F7A5523F7DF1F00BB311B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87F7A5723F7DF1F00BB311B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87F7A5D23F7EB5A00BB311B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C87F7A5F23F7F69000BB311B /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				C87F7A5723F7DF1F00BB311B /* Info.plist */,
 				C87F7A4A23F7DF1D00BB311B /* HeyFriend.xcdatamodeld */,
 				C87F7A5123F7DF1F00BB311B /* Preview Content */,
+				C87F7A5D23F7EB5A00BB311B /* CircleImage.swift */,
+				C87F7A5F23F7F69000BB311B /* InfoRow.swift */,
 			);
 			path = HeyFriend;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			files = (
 				C87F7A4723F7DF1D00BB311B /* AppDelegate.swift in Sources */,
 				C87F7A4C23F7DF1D00BB311B /* HeyFriend.xcdatamodeld in Sources */,
+				C87F7A6023F7F69000BB311B /* InfoRow.swift in Sources */,
 				C87F7A4E23F7DF1D00BB311B /* ContentView.swift in Sources */,
 				C87F7A4923F7DF1D00BB311B /* SceneDelegate.swift in Sources */,
+				C87F7A5E23F7EB5A00BB311B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
